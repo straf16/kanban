@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "sh deploy.sh"
+    "deploy": "node scripts/gh-pages-deploy.js"
   },
   "dependencies": {
     "bootstrap-vue": "^2.1.0",
@@ -28,6 +28,7 @@
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-vue": "^5.0.0",
     "prettier": "^1.18.2",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "execa": "latest"
   }
 }
